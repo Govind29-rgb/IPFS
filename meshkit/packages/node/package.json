@@ -1,0 +1,23 @@
+{
+  "name": "@ipfs-meshkit/node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local Kubo lifecycle for IPFS Meshkit (bundled into root @ipfs-meshkit/meshkit).",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "scripts": {
+    "clean": "rm -rf dist"
+  },
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "@ipfs-meshkit/core": "1.0.0"
+  }
+}

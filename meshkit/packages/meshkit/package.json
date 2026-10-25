@@ -1,0 +1,13 @@
+{
+  "name": "@ipfs-meshkit/meshkit-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Workspace source for ipfs-meshkit (published from repo root dist/).",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2"
+  }
+}

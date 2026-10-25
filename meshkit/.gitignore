@@ -1,0 +1,14 @@
+node_modules
+dist
+*.tsbuildinfo
+*.tgz
+coverage
+.pack-check
+
+# Kubo repos (local dev + integration tests)
+.ipfs
+.ipfs-test
+.ipfs-ipns-test
+.ipfs-attach-test
+.ipfs-missing-repo
+tests/integration/.ipfs*
