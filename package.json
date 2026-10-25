@@ -1,0 +1,18 @@
+{
+  "name": "helia-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@helia/strings": "^6.0.6",
+    "@helia/unixfs": "^8.0.9",
+    "helia": "^7.1.16"
+  }
+}
